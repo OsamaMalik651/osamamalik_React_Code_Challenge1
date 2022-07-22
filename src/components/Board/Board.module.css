@@ -1,0 +1,47 @@
+.Board {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 2rem;
+}
+
+.Board > h1 {
+  font-size: 3rem;
+}
+.Board > p {
+  font-size: 1.5rem;
+}
+.BoardGame {
+  width: max-content;
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(3, 8rem);
+  grid-template-rows: repeat(3, 8rem);
+  grid-gap: 1rem;
+  background-color: black;
+  margin: 1.5rem 0rem;
+}
+
+.position {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial;
+  font-size: 6rem;
+  font-weight: bold;
+  background-color: white;
+}
+
+.Button {
+  box-sizing: border-box;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: rgb(204, 202, 202);
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
